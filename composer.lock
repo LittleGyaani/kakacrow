@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "44b90dbc8f8516cfbf4880042fb4ddc5",
+    "content-hash": "957b8127485ebfd9c9377bc3711af2c5",
     "packages": [
         {
             "name": "antoinefr/flarum-ext-online",
@@ -990,6 +990,62 @@
                 "whoops"
             ],
             "time": "2020-01-15T10:00:00+00:00"
+        },
+        {
+            "name": "flagrow/users-list",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flagrow/users-list.git",
+                "reference": "d804c4a7e96e8e05df960b780e2937e6c59a74a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flagrow/users-list/zipball/d804c4a7e96e8e05df960b780e2937e6c59a74a6",
+                "reference": "d804c4a7e96e8e05df960b780e2937e6c59a74a6",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flagrow Users List",
+                    "icon": {
+                        "name": "users",
+                        "backgroundColor": "#f4f4f4",
+                        "color": "#5f4bb6"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flagrow\\UsersList\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolai Morozov",
+                    "email": "avanmorozov@gmail.com"
+                },
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "http://luceos.com"
+                }
+            ],
+            "description": "Add users list in admin panel.",
+            "keywords": [
+                "Users",
+                "admin"
+            ],
+            "abandoned": true,
+            "time": "2017-06-13T14:26:30+00:00"
         },
         {
             "name": "flarum/approval",
@@ -2313,6 +2369,59 @@
             "time": "2019-06-16T12:18:08+00:00"
         },
         {
+            "name": "fof/forum-statistics-widget",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/forum-statistics-widget.git",
+                "reference": "d2bc4ed3a8a2fc7e2e774f82f0e32d33ffcf80f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/forum-statistics-widget/zipball/d2bc4ed3a8a2fc7e2e774f82f0e32d33ffcf80f1",
+                "reference": "d2bc4ed3a8a2fc7e2e774f82f0e32d33ffcf80f1",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Forum Statistics Widget",
+                    "icon": {
+                        "name": "fas fa-chart-bar",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/22380"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\ForumStatisticsWidget\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lopez",
+                    "email": "Ralkage@live.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add a forum statistics widget to the sidenav section of your Flarum forum.",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2019-12-28T23:07:09+00:00"
+        },
+        {
             "name": "fof/gamification",
             "version": "0.1.8",
             "source": {
@@ -2646,6 +2755,63 @@
             "time": "2020-03-24T22:42:04+00:00"
         },
         {
+            "name": "fof/secure-https",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/secure-https.git",
+                "reference": "0e2851481e1e054d54a34d447dd34eb3997ee330"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/secure-https/zipball/0e2851481e1e054d54a34d447dd34eb3997ee330",
+                "reference": "0e2851481e1e054d54a34d447dd34eb3997ee330",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta-8"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Secure HTTPS",
+                    "icon": {
+                        "name": "fas fa-lock",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": ""
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\SecureHttps\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Connor Davis",
+                    "email": "davis@produes.co"
+                },
+                {
+                    "name": "David Sevilla Martín",
+                    "email": "david.s@redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Changes all images using http to https",
+            "keywords": [
+                "flarum"
+            ],
+            "time": "2018-11-26T13:43:06+00:00"
+        },
+        {
             "name": "fof/share-social",
             "version": "0.1.2",
             "source": {
@@ -2768,6 +2934,70 @@
                 }
             ],
             "time": "2020-03-16T14:49:15+00:00"
+        },
+        {
+            "name": "fof/stopforumspam",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/stopforumspam.git",
+                "reference": "ec0e1b82f15a7c559cd5ae15b66066ef5549db12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/stopforumspam/zipball/ec0e1b82f15a7c559cd5ae15b66066ef5549db12",
+                "reference": "ec0e1b82f15a7c559cd5ae15b66066ef5549db12",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.10",
+                "fof/components": ">=0.1.0",
+                "guzzlehttp/guzzle": "6.*"
+            },
+            "replace": {
+                "reflar/stopforumspam": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Stop Forum Spam",
+                    "icon": {
+                        "name": "fas fa-stop",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/17846-friendsofflarum-stopforumspam"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\StopForumSpam\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charlie K",
+                    "email": "charlie.k@redevs.org",
+                    "role": "Developer"
+                },
+                {
+                    "name": "David Sevilla Martin",
+                    "email": "me@datitisev.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Stop Forum Spam",
+            "keywords": [
+                "flarum",
+                "friendsofflarum"
+            ],
+            "time": "2019-12-02T20:21:56+00:00"
         },
         {
             "name": "fof/user-bio",

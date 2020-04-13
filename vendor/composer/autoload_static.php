@@ -168,13 +168,16 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
             'Franzl\\Middleware\\Whoops\\' => 25,
             'FoF\\UserDirectory\\' => 18,
             'FoF\\UserBio\\' => 12,
+            'FoF\\StopForumSpam\\' => 18,
             'FoF\\SocialProfile\\' => 18,
             'FoF\\ShareSocial\\' => 16,
+            'FoF\\SecureHttps\\' => 16,
             'FoF\\Reactions\\' => 14,
             'FoF\\Polls\\Migrations\\' => 21,
             'FoF\\Polls\\' => 10,
             'FoF\\NightMode\\' => 14,
             'FoF\\Gamification\\' => 17,
+            'FoF\\ForumStatisticsWidget\\' => 26,
             'FoF\\Extend\\' => 11,
             'FoF\\DisposableEmails\\' => 21,
             'FoF\\Components\\' => 15,
@@ -193,6 +196,7 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
             'Flarum\\Auth\\Facebook\\' => 21,
             'Flarum\\Approval\\' => 16,
             'Flarum\\' => 7,
+            'Flagrow\\UsersList\\' => 18,
             'Fig\\Http\\Message\\' => 17,
             'FastRoute\\' => 10,
         ),
@@ -534,6 +538,10 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         array (
             0 => __DIR__ . '/..' . '/fof/user-bio/src',
         ),
+        'FoF\\StopForumSpam\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/stopforumspam/src',
+        ),
         'FoF\\SocialProfile\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/socialprofile/src',
@@ -541,6 +549,10 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         'FoF\\ShareSocial\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/share-social/src',
+        ),
+        'FoF\\SecureHttps\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/secure-https/src',
         ),
         'FoF\\Reactions\\' => 
         array (
@@ -561,6 +573,10 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         'FoF\\Gamification\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/gamification/src',
+        ),
+        'FoF\\ForumStatisticsWidget\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/forum-statistics-widget/src',
         ),
         'FoF\\Extend\\' => 
         array (
@@ -633,6 +649,10 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         'Flarum\\' => 
         array (
             0 => __DIR__ . '/..' . '/flarum/core/src',
+        ),
+        'Flagrow\\UsersList\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/users-list/src',
         ),
         'Fig\\Http\\Message\\' => 
         array (
