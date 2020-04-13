@@ -1,0 +1,18 @@
+pushedx-chat:
+  forum:
+    toolbar:
+      title: Чат
+      enable_sounds: Включить звуковые уведомления
+      disable_sounds: Отключить звуковые уведомления
+      enable_notifications: Включить push-уведомления
+      disable_notifications: Отключить push-уведомления
+      minimize: Свернуть
+      maximize: Развернуть
+    chat:
+      placeholder: Напишите сообщение...
+    errors:
+      unauthenticated: Писать в чате могут только зарегистрированные пользователи
+  admin:
+    settings:
+      title: Настройки чата
+      charlimit: Максимум символов в сообщении
