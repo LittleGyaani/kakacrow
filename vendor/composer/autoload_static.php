@@ -166,6 +166,7 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         'F' => 
         array (
             'Franzl\\Middleware\\Whoops\\' => 25,
+            'FoF\\UserDirectory\\' => 18,
             'FoF\\UserBio\\' => 12,
             'FoF\\SocialProfile\\' => 18,
             'FoF\\ShareSocial\\' => 16,
@@ -524,6 +525,10 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         'Franzl\\Middleware\\Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/franzl/whoops-middleware/src',
+        ),
+        'FoF\\UserDirectory\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/user-directory/src',
         ),
         'FoF\\UserBio\\' => 
         array (

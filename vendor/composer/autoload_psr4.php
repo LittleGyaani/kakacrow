@@ -81,6 +81,7 @@ return array(
     'GuzzleHttp\\Promise\\' => array($vendorDir . '/guzzlehttp/promises/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Franzl\\Middleware\\Whoops\\' => array($vendorDir . '/franzl/whoops-middleware/src'),
+    'FoF\\UserDirectory\\' => array($vendorDir . '/fof/user-directory/src'),
     'FoF\\UserBio\\' => array($vendorDir . '/fof/user-bio/src'),
     'FoF\\SocialProfile\\' => array($vendorDir . '/fof/socialprofile/src'),
     'FoF\\ShareSocial\\' => array($vendorDir . '/fof/share-social/src'),

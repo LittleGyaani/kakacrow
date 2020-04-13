@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b34ee7955fcab1ea1485b6e6ddd35599",
+    "content-hash": "44b90dbc8f8516cfbf4880042fb4ddc5",
     "packages": [
         {
             "name": "antoinefr/flarum-ext-online",
@@ -2592,6 +2592,60 @@
             "time": "2020-03-23T00:24:30+00:00"
         },
         {
+            "name": "fof/realtimelogin",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/realtimelogin.git",
+                "reference": "aeaa3203191c2701c4fa218dbcd96f2ade71d407"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/realtimelogin/zipball/aeaa3203191c2701c4fa218dbcd96f2ade71d407",
+                "reference": "aeaa3203191c2701c4fa218dbcd96f2ade71d407",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.11"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Real Time Login",
+                    "icon": {
+                        "name": "fas fa-sign-in-alt",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Charlie Kern",
+                    "email": "charlie.k@redevs.org",
+                    "homepage": "https://redevs.org"
+                }
+            ],
+            "description": "Makes logins update in real time",
+            "keywords": [
+                "Friends of Flarum",
+                "extension",
+                "flarum",
+                "realtime"
+            ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-03-24T22:42:04+00:00"
+        },
+        {
             "name": "fof/share-social",
             "version": "0.1.2",
             "source": {
@@ -2769,6 +2823,72 @@
                 "flarum"
             ],
             "time": "2019-09-08T15:22:25+00:00"
+        },
+        {
+            "name": "fof/user-directory",
+            "version": "0.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/user-directory.git",
+                "reference": "414069f7839a3b72a41476b9a9f47cb1ce5c0fc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/user-directory/zipball/414069f7839a3b72a41476b9a9f47cb1ce5c0fc2",
+                "reference": "414069f7839a3b72a41476b9a9f47cb1ce5c0fc2",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.8",
+                "fof/components": ">=0.1.0"
+            },
+            "replace": {
+                "flagrow/user-directory": "*"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF User Directory",
+                    "icon": {
+                        "name": "far fa-address-book",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/5682"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\UserDirectory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "https://luceos.com/"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "The permission based public user directory extension for your Flarum forum.",
+            "keywords": [
+                "extension",
+                "flarum",
+                "member list",
+                "user directory",
+                "user list"
+            ],
+            "time": "2020-03-11T02:51:50+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
