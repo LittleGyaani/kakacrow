@@ -368,6 +368,56 @@
         "description": "Font Awesome, the iconic SVG, font, and CSS framework."
     },
     {
+        "name": "datitisev/flarum-ext-dashboard",
+        "version": "v0.1.0-beta.8.2",
+        "version_normalized": "0.1.0.0-beta8.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/datitisev/flarum-ext-dashboard.git",
+            "reference": "cfa716865385e974d47c6f0ba07ba9f2c008349b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/datitisev/flarum-ext-dashboard/zipball/cfa716865385e974d47c6f0ba07ba9f2c008349b",
+            "reference": "cfa716865385e974d47c6f0ba07ba9f2c008349b",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta-8"
+        },
+        "time": "2020-04-09T14:53:27+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Dashboard",
+                "icon": {
+                    "name": "fas fa-tachometer-alt",
+                    "backgroundColor": "#3F51B5",
+                    "color": "#FFEB3B"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Datitisev\\Dashboard\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "David Sevilla Martín",
+                "email": "me@datitisev.me",
+                "homepage": "https://datitisev.me",
+                "role": "Developer"
+            }
+        ],
+        "description": "A dashboard for the admin interface in Flarum"
+    },
+    {
         "name": "dflydev/fig-cookies",
         "version": "v1.0.2",
         "version_normalized": "1.0.2.0",
@@ -1071,6 +1121,64 @@
             "throwable",
             "whoops"
         ]
+    },
+    {
+        "name": "flagrow/users-list",
+        "version": "0.1.2",
+        "version_normalized": "0.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flagrow/users-list.git",
+            "reference": "d804c4a7e96e8e05df960b780e2937e6c59a74a6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flagrow/users-list/zipball/d804c4a7e96e8e05df960b780e2937e6c59a74a6",
+            "reference": "d804c4a7e96e8e05df960b780e2937e6c59a74a6",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.6"
+        },
+        "time": "2017-06-13T14:26:30+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Flagrow Users List",
+                "icon": {
+                    "name": "users",
+                    "backgroundColor": "#f4f4f4",
+                    "color": "#5f4bb6"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Flagrow\\UsersList\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nikolai Morozov",
+                "email": "avanmorozov@gmail.com"
+            },
+            {
+                "name": "Daniël Klabbers",
+                "email": "daniel@klabbers.email",
+                "homepage": "http://luceos.com"
+            }
+        ],
+        "description": "Add users list in admin panel.",
+        "keywords": [
+            "Users",
+            "admin"
+        ],
+        "abandoned": true
     },
     {
         "name": "flarum/approval",

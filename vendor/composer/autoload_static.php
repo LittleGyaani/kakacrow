@@ -199,6 +199,7 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
             'Flarum\\Auth\\Facebook\\' => 21,
             'Flarum\\Approval\\' => 16,
             'Flarum\\' => 7,
+            'Flagrow\\UsersList\\' => 18,
             'Fig\\Http\\Message\\' => 17,
             'FastRoute\\' => 10,
         ),
@@ -214,6 +215,7 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\' => 16,
             'Dflydev\\FigCookies\\' => 19,
+            'Datitisev\\Dashboard\\' => 20,
         ),
         'C' => 
         array (
@@ -661,6 +663,10 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         array (
             0 => __DIR__ . '/..' . '/flarum/core/src',
         ),
+        'Flagrow\\UsersList\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/users-list/src',
+        ),
         'Fig\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/fig/http-message-util/src',
@@ -696,6 +702,10 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         'Dflydev\\FigCookies\\' => 
         array (
             0 => __DIR__ . '/..' . '/dflydev/fig-cookies/src/Dflydev/FigCookies',
+        ),
+        'Datitisev\\Dashboard\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/datitisev/flarum-ext-dashboard/src',
         ),
         'ClarkWinkelmann\\Status\\' => 
         array (

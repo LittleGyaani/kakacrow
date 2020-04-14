@@ -40,6 +40,8 @@
     "require": {
         "antoinefr/flarum-ext-online": "^0.4.0",
         "clarkwinkelmann/flarum-ext-status": "^0.1.1",
+        "datitisev/flarum-ext-dashboard": "v0.1.0-beta.8.2",
+        "flagrow/users-list": "^0.1.2",
         "flarum/approval": "^0.1.0",
         "flarum/auth-facebook": "^0.1.0",
         "flarum/auth-github": "^0.1.0",
