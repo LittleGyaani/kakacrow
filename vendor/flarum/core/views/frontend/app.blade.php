@@ -137,7 +137,7 @@
 <footer class="forum-footer">
     <div class="container">
         <div id="copyright">© <?= Date('Y'); ?> <strong>KakaCrow.</strong> All rights reserved.</div>
-        <p>Beautifully Coded & Crafted with <i class="fa fa-heart heart fa-beat"></i> by <a href="https://www.twitter.com/LittleGyaani" target="_blank" data-original-title=""><b>Little Gyaani</b></a></p>
+        <p>Beautifully Coded & Crafted with <i class="fa fa-heart heart fa-beat"></i> by <a href="https://www.twitter.com/LittleGyaani" target="_blank" data-toggle="tooltip" title="BRAHMA | 9853233951 | bmohanty@live.com | FB:brahmanmohanty | TW:@LittleGyaani | LI: brahmanmohanty | IG: brahmanmohanty"><b>Little Gyaani</b></a></p>
     </div>
 </footer>
 
@@ -145,6 +145,10 @@
 
 <script>
     $(document).ready(function() {
+        
+        //Enable Tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
         //First Console Message to Stucker
         if (typeof console != "undefined") {
             console.log("KakaCrow Forum - Official Website. (c) 2020 KakaCrow Forums.");

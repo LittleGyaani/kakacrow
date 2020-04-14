@@ -47,6 +47,7 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         '84245cb95409c51c4ae97f8e59da883a' => __DIR__ . '/..' . '/flarum/core/src/helpers.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
+        'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -66,10 +67,6 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
             'axy\\errors\\' => 11,
             'axy\\codecs\\base64vlq\\' => 21,
             'axy\\backtrace\\' => 14,
-        ),
-        'X' => 
-        array (
-            'Xelson\\Chat\\' => 12,
         ),
         'W' => 
         array (
@@ -103,6 +100,11 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Config\\' => 25,
+            'SoftCreatR\\MimeDetector\\' => 24,
+        ),
+        'R' => 
+        array (
+            'Ramsey\\Uuid\\' => 12,
         ),
         'P' => 
         array (
@@ -168,6 +170,7 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
             'Franzl\\Middleware\\Whoops\\' => 25,
             'FoF\\UserDirectory\\' => 18,
             'FoF\\UserBio\\' => 12,
+            'FoF\\Upload\\' => 11,
             'FoF\\StopForumSpam\\' => 18,
             'FoF\\SocialProfile\\' => 18,
             'FoF\\ShareSocial\\' => 16,
@@ -196,7 +199,6 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
             'Flarum\\Auth\\Facebook\\' => 21,
             'Flarum\\Approval\\' => 16,
             'Flarum\\' => 7,
-            'Flagrow\\UsersList\\' => 18,
             'Fig\\Http\\Message\\' => 17,
             'FastRoute\\' => 10,
         ),
@@ -219,6 +221,7 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         ),
         'A' => 
         array (
+            'Avatar4eg\\UsersList\\' => 20,
             'AntoineFr\\Online\\' => 17,
         ),
     );
@@ -255,10 +258,6 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         'axy\\backtrace\\' => 
         array (
             0 => __DIR__ . '/..' . '/axy/backtrace',
-        ),
-        'Xelson\\Chat\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/jhlee838/flarum-ext-chat/src',
         ),
         'Whoops\\' => 
         array (
@@ -355,6 +354,14 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         'Symfony\\Component\\Config\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/config',
+        ),
+        'SoftCreatR\\MimeDetector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/softcreatr/php-mime-detector/src/SoftCreatR/MimeDetector',
+        ),
+        'Ramsey\\Uuid\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ramsey/uuid/src',
         ),
         'Psr\\SimpleCache\\' => 
         array (
@@ -538,6 +545,10 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         array (
             0 => __DIR__ . '/..' . '/fof/user-bio/src',
         ),
+        'FoF\\Upload\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/upload/src',
+        ),
         'FoF\\StopForumSpam\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/stopforumspam/src',
@@ -650,10 +661,6 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         array (
             0 => __DIR__ . '/..' . '/flarum/core/src',
         ),
-        'Flagrow\\UsersList\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/flagrow/users-list/src',
-        ),
         'Fig\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/fig/http-message-util/src',
@@ -693,6 +700,10 @@ class ComposerStaticInit8b6ec61f437d4509c42581993c6281e3
         'ClarkWinkelmann\\Status\\' => 
         array (
             0 => __DIR__ . '/..' . '/clarkwinkelmann/flarum-ext-status/src',
+        ),
+        'Avatar4eg\\UsersList\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/avatar4eg/flarum-ext-users-list/src',
         ),
         'AntoineFr\\Online\\' => 
         array (
