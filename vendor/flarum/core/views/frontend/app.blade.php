@@ -137,7 +137,7 @@
 <footer class="forum-footer">
     <div class="container">
         <div id="copyright">© <?= Date('Y'); ?> <strong>KakaCrow.</strong> All rights reserved.</div>
-        <p>Beautifull Coded & Crafted with <i class="fa fa-heart heart fa-beat"></i> by <a href="https://www.twitter.com/LittleGyaani" target="_blank"><b>Little Gyaani</b></a></p>
+        <p>Beautifully Coded & Crafted with <i class="fa fa-heart heart fa-beat"></i> by <a href="https://www.twitter.com/LittleGyaani" target="_blank" data-original-title=""><b>Little Gyaani</b></a></p>
     </div>
 </footer>
 
